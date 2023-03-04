@@ -69,7 +69,7 @@ This Name is not Vipan
 @endpush
 
 @section('main-section')
-<h1 class="text-center">Home Page is Running</h1>
+<h1 class="text-center">Home Page is Running Now.</h1>
 @endsection
 
 
