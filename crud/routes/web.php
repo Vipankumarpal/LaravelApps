@@ -2,6 +2,9 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DemoController;
+use App\Http\Controllers\SingleActionController;
+use App\Http\Controllers\PhotoController;
+use App\Http\Controllers\RegistrationController;
 
 /*
 |--------------------------------------------------------------------------
@@ -65,4 +68,16 @@ use App\Http\Controllers\DemoController;
 //     return view ('services');
 // });
 
- Route::get('/',[DemoController::class, 'index']);
+//  Route::get('/',[DemoController::class, 'index']);
+//  Route::get('/about',[DemoController::class, 'about']);
+//  Route::get('/services',SingleActionController::class);
+//  Route::resource('/photo',PhotoController::class);
+
+Route::get('/register',[RegistrationController::class, 'index']);
+Route::post('/register',[RegistrationController::class, 'register']);
+
+
+
+
+
+

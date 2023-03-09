@@ -10,4 +10,12 @@ class DemoController extends Controller
     {
         return view ('home');
     }
+
+    // Function For About Controller
+    public function about()
+    {
+        return view ('about');
+    }
 }
+
+

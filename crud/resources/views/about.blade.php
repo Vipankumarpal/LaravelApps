@@ -5,5 +5,7 @@
 @endpush
 
 @section('main-section')
-<h1>About Page</h1>
+<main>
+<h1 class="text-center">About Page Is Running Now!</h1>
+</main>
 @endsection
