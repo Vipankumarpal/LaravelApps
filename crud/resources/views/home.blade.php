@@ -68,7 +68,7 @@ This Name is not Vipan
     
 @endpush
 
-@section('main-section').
+@section('main-section')
 <main>
 <h1 class="text-center">Home Page is Running Now. <a href="test">Click Here</a></h1>
 </main>
