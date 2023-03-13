@@ -7,9 +7,9 @@
     <input type="{{$type}}" class="form-control border border-success" name="{{$name}}" />
     <span class="text-danger">
         {{-- {{$demo}} --}}
-        @error('name')
+        {{-- @error('name')
             {{$message}}
-        @enderror
+        @enderror --}}
     </span>
     {{-- <small id="helpId" class="form-text text-muted">Help text</small> --}}
 </div>

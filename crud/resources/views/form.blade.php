@@ -23,10 +23,33 @@
         @endphp --}}
         {{-- <x-input type="text" name="name" label="Please Enter Your Name Here" :demo="$demo" /> --}}
         <x-input type="text" name="name" label="Please Enter Your Name Here"  />
+        <span class="text-danger">
+          {{-- {{$demo}} --}}
+          @error('name')
+              {{$message}}
+          @enderror
+      </span>
         <x-input type="email" name="email" label="Please Enter Your Email Here" />
+        <span class="text-danger">
+          {{-- {{$demo}} --}}
+          @error('email')
+              {{$message}}
+          @enderror
+      </span>
         <x-input type="password" name="password" label="Password" />
+        <span class="text-danger">
+          {{-- {{$demo}} --}}
+          @error('password')
+              {{$message}}
+          @enderror
+      </span>
         <x-input type="password" name="password_confirmation" label="Confirm Password" />
-        
+        <span class="text-danger">
+          {{-- {{$demo}} --}}
+          @error('password_confirmation')
+              {{$message}}
+          @enderror
+      </span>
         
         <button class="btn btn-primary">Submit</button>
     </form>
